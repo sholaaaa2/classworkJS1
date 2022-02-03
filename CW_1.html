@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <style>
+    *{
+      margin: 0;
+      padding: 0;
+    }
+  </style>
+</head>
+<body>
+  <script>
+    var a = prompt("Введите имя");
+    var b = prompt("Введите фамилию");
+    var c = prompt("Введите возвраст");
+
+    var num1 = +prompt("Введите 1 число");
+    var num2 = +prompt("Введите 2 число");
+    var num3 = +prompt("Введите 3 число");
+
+    document.write('<header style="background-color: rgb(187, 74, 61); width: 800px; height: 200px;"></header>');
+    document.write('<div style="background-color: rgb(187, 132, 61); width: 100px; height: 400px; float: left;display: inline-block "></div>');
+    document.write('<section style="background-color: rgb(156, 153, 73); width: 700px; height: 400px;display: inline-block">'+ a +'<br>'+ b +'<br>'+ c +'</section>');
+    document.write('<footer style="background-color: rgb(131, 73, 18); width: 800px; height: 200px;display: inline-block">'+(num1+num2+num3)/3+'</footer>');
+
+  </script>
+</body>
+</html>
